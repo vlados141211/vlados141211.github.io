@@ -1,0 +1,36 @@
+img{
+    width: 100%;
+}
+.logo-img{
+width: 80px;
+}
+.nav-link{
+color: navy;
+font-size: 1.2 rem;
+font-weight: 900;
+}
+footer{
+    background-color: rgb(16, 2, 54);
+    color: aliceblue;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   margin-top: 40px;
+}
+
+
+.zoom:hover{
+transform: scale(2);
+}
+.zoom{
+    transition: 2s;
+}
+.col-md-5{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
