@@ -1,0 +1,44 @@
+.big-photo {
+    background-image: url(banner.jpg);
+    height: 550px;
+    background-position: 40% 50%;
+    background-size: cover;
+    text-align: right;
+    color: azure;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 70px;
+}
+
+body {
+    margin: 0;
+}
+
+.the-hut {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.418), rgba(255, 255, 255, 0.418)), url(the-hut-bg.png);
+    height: 250px;
+
+}
+
+.the-terytoria {
+    background-image: url(the-area.png);
+    height: 250px;
+    color: azure;
+}
+
+.container {
+    padding: 50px;
+}
+footer{
+    background: #5B6460;
+    padding: 0;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
