@@ -1,0 +1,51 @@
+.navbar {
+    background: linear-gradient(to right, rgb(145, 127, 151), white, rgb(80, 26, 155));
+}
+
+img {
+    width: 100%;
+}
+
+.my-card-1 img {
+    width: 30%;
+}
+
+.my-card-2 img {
+    width: 40%;
+
+}
+
+.www {
+    width: 80%;
+}
+
+.fon-1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: linear-gradient(to bottom, #86baff, #FBFBFB);
+}
+
+.my-card-2 {
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #867fd3;
+}
+
+.fon-2 {
+    background-image: linear-gradient(to right bottom, #898c90, #17173e);
+
+}
+
+.UL {
+    list-style-image: url(list-img.png);
+}
+
+.fon-3 {
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right bottom, #898c90, #17173e);
+}
