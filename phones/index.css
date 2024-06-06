@@ -1,0 +1,35 @@
+img{
+    width: 100%;
+}
+.start{
+background-image: url(sunset-8544672_1280.jpg);
+height: 550px;
+background-position: 40% 50%;
+background-size: cover;
+text-align: right;
+align-items: center;
+margin-bottom: 25px;
+}
+.tele{
+color: aliceblue;
+text-align: center;
+background-color: rgba(18, 18, 18, 0.551);
+padding: 20px;
+font-size: 1.5rem;
+}
+.old-phone{
+margin-bottom: 45px;
+
+}
+.font{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.logo{
+    width: 50px;
+}
+body{
+    background-color:rgba(10, 94, 30, 0.404) ;
+}
+.nav-link{
+    color: black;
+}
