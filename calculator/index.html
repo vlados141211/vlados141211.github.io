@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="23.css">
+</head>
+
+<body>
+    <div class="div-1">
+        <input type="text" v-model="textUser">
+        <button v-on:click="Clear()">Очистити</button>
+        <p>{{textUser}}</p>
+    </div>
+
+    <div class="div-2">
+        <input type="text" v-model="str">
+        <button class="btn num" v-for="item in numbers" v-on:click="addToStr(item)">{{item}}</button>
+        <button class="btn znaky" v-for="item in zn" v-on:click="addToStr(item)">{{item}}</button>
+        <button class="btn znaky" v-on:click = Clear()>Clear</button>
+        <button class="btn znaky" v-on:click="Calculate()"> = </button>
+    </div>
+    
+
+
+
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="23.js"></script>
+</body>
+
+</html>v
